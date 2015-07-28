@@ -32,6 +32,7 @@ public class C4View : NSObject {
     */
     public init(view: NSView) {
         self.view = view;
+        view.wantsLayer = true
     }
     
     /**

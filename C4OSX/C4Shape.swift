@@ -18,19 +18,14 @@
 // IN THE SOFTWARE.
 
 import QuartzCore
-import UIKit
 
 public class C4Shape: C4View {
     
-    internal class ShapeView : UIView {
+    internal class ShapeView : NSView {
         var shapeLayer: C4ShapeLayer {
             get {
                 return self.layer as! C4ShapeLayer
             }
-        }
-        
-        override class func layerClass() -> AnyClass {
-            return C4ShapeLayer.self
         }
     }
     
@@ -52,6 +47,7 @@ public class C4Shape: C4View {
     convenience public init(_ path: C4Path) {
         self.init(frame: path.boundingBox())
         self.path = path
+        self.view.layer = C4ShapeLayer()
         updatePath()
         //init methods in swift don't run instance methods, so we have to add the adjustToFitPath functionality manually
         var t = CGAffineTransformMakeTranslation(CGFloat(-origin.x),CGFloat(-origin.y))

@@ -21,6 +21,7 @@
 		D9A3C1FA1B68438D0068831D /* C4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A3C1F91B68438D0068831D /* C4View.swift */; };
 		D9A3C1FC1B6843B10068831D /* C4ShapeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A3C1FB1B6843B10068831D /* C4ShapeLayer.swift */; };
 		D9A3C1FE1B6843F20068831D /* C4Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A3C1FD1B6843F20068831D /* C4Shape.swift */; };
+		D9A3C20B1B6846570068831D /* C4CanvasController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A3C20A1B6846570068831D /* C4CanvasController.swift */; };
 		D9A3C20D1B68469D0068831D /* NSViewController+C4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A3C20C1B68469D0068831D /* NSViewController+C4View.swift */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,7 @@
 		D9A3C1F91B68438D0068831D /* C4View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = C4View.swift; sourceTree = "<group>"; };
 		D9A3C1FB1B6843B10068831D /* C4ShapeLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = C4ShapeLayer.swift; sourceTree = "<group>"; };
 		D9A3C1FD1B6843F20068831D /* C4Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = C4Shape.swift; sourceTree = "<group>"; };
+		D9A3C20A1B6846570068831D /* C4CanvasController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = C4CanvasController.swift; sourceTree = "<group>"; };
 		D9A3C20C1B68469D0068831D /* NSViewController+C4View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSViewController+C4View.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,6 +107,7 @@
 				D9A3C1F91B68438D0068831D /* C4View.swift */,
 				D9A3C1FB1B6843B10068831D /* C4ShapeLayer.swift */,
 				D9A3C1FD1B6843F20068831D /* C4Shape.swift */,
+				D9A3C20A1B6846570068831D /* C4CanvasController.swift */,
 				D9A3C20C1B68469D0068831D /* NSViewController+C4View.swift */,
 			);
 			name = UI;
@@ -193,6 +196,7 @@
 				D9A3C1F71B6843480068831D /* C4Vector.swift in Sources */,
 				D9A3C1F51B6843480068831D /* C4Size.swift in Sources */,
 				D9A3C1F21B6843480068831D /* C4Path.swift in Sources */,
+				D9A3C20B1B6846570068831D /* C4CanvasController.swift in Sources */,
 				D9A3C1F01B6843480068831D /* C4Foundation.swift in Sources */,
 				D9A3C1F41B6843480068831D /* C4Rect.swift in Sources */,
 				D9A3C1FC1B6843B10068831D /* C4ShapeLayer.swift in Sources */,

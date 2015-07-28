@@ -19,6 +19,7 @@
 		D9A3C1F61B6843480068831D /* C4Transform.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A3C1EC1B6843480068831D /* C4Transform.swift */; };
 		D9A3C1F71B6843480068831D /* C4Vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A3C1ED1B6843480068831D /* C4Vector.swift */; };
 		D9A3C1FA1B68438D0068831D /* C4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A3C1F91B68438D0068831D /* C4View.swift */; };
+		D9A3C1FC1B6843B10068831D /* C4ShapeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A3C1FB1B6843B10068831D /* C4ShapeLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		D9A3C1EC1B6843480068831D /* C4Transform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = C4Transform.swift; sourceTree = "<group>"; };
 		D9A3C1ED1B6843480068831D /* C4Vector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = C4Vector.swift; sourceTree = "<group>"; };
 		D9A3C1F91B68438D0068831D /* C4View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = C4View.swift; sourceTree = "<group>"; };
+		D9A3C1FB1B6843B10068831D /* C4ShapeLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = C4ShapeLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				D9A3C1F91B68438D0068831D /* C4View.swift */,
+				D9A3C1FB1B6843B10068831D /* C4ShapeLayer.swift */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 				D9A3C1F21B6843480068831D /* C4Path.swift in Sources */,
 				D9A3C1F01B6843480068831D /* C4Foundation.swift in Sources */,
 				D9A3C1F41B6843480068831D /* C4Rect.swift in Sources */,
+				D9A3C1FC1B6843B10068831D /* C4ShapeLayer.swift in Sources */,
 				D9A3C1F61B6843480068831D /* C4Transform.swift in Sources */,
 				D9A3C1F31B6843480068831D /* C4Point.swift in Sources */,
 				D9A3C1EF1B6843480068831D /* C4EventSource.swift in Sources */,

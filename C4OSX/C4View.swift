@@ -23,6 +23,8 @@ public class C4View : NSObject {
     public var view : NSView = NSView()
     
     public override init() {
+        view = NSView()
+        view.wantsLayer = true
     }
     
     /**

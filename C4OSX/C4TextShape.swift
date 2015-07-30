@@ -31,11 +31,15 @@ public class C4TextShape : C4Shape {
             updatePath()
         }
     }
-    
-    public override init() {
+
+    convenience public init() {
+        self.init()
         font = C4Font(name: "AvenirNext-DemiBold", size:80)
-        super.init()
+    }
+
+    public override init(frame: C4Rect) {
         font = C4Font(name: "AvenirNext-DemiBold", size:80)
+        super.init(frame: frame)
     }
 
     /**

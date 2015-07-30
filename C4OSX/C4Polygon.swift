@@ -56,8 +56,8 @@ public class C4Polygon: C4Shape {
     */
     convenience public init(_ points: [C4Point]) {
         assert(points.count >= 2, "To create a Polygon you need to specify an array of at least 2 points")
-        self.init()
         let frame = C4Rect(points)
+        self.init(frame: frame)
         view.frame = NSRect(frame)
         let path = C4Path()
         self.points = points
@@ -75,9 +75,9 @@ public class C4Polygon: C4Shape {
     
     Properly constructs the self.points array.
     */
-    public override init() {
+    public override init(frame: C4Rect) {
         self.points = [C4Point]()
-        super.init()
+        super.init(frame:C4Rect())
     }
     
     required public init(coder aDecoder: NSCoder) {

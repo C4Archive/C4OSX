@@ -409,9 +409,11 @@ extension NSView {
     */
     public func sendToBack<T>(subview:T) {
         if let v = subview as? NSView {
-            self.sendToBack(v)
+            remove(v)
+            addSubview(v, positioned: NSWindowOrderingMode.Below, relativeTo: nil)
         } else if let v = subview as? C4View {
-            self.sendToBack(v.view)
+            remove(v.view)
+            addSubview(v.view, positioned: NSWindowOrderingMode.Below, relativeTo: nil)
         }
     }
 
@@ -424,9 +426,11 @@ extension NSView {
     */
     public func bringToFront<T>(subview:T) {
         if let v = subview as? NSView {
-            self.bringToFront(v)
+            remove(v)
+            addSubview(v, positioned: NSWindowOrderingMode.Above, relativeTo: nil)
         } else if let v = subview as? C4View {
-            self.bringToFront(v.view)
+            remove(v.view)
+            addSubview(v.view, positioned: NSWindowOrderingMode.Above, relativeTo: nil)
         }
     }
 }

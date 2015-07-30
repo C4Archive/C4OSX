@@ -32,15 +32,15 @@ public class C4TextShape : C4Shape {
         }
     }
 
-    convenience public init() {
-        self.init()
-        font = C4Font(name: "AvenirNext-DemiBold", size:80)
+    public init() {
+        font = C4Font(name: "AvenirNext-DemiBold", size:12)
+        super.init(frame: C4Rect(0,0,1,1))
     }
-
-    public override init(frame: C4Rect) {
-        font = C4Font(name: "AvenirNext-DemiBold", size:80)
-        super.init(frame: frame)
-    }
+//
+//    public override init(frame: C4Rect) {
+//        font = C4Font(name: "AvenirNext-DemiBold", size:80)
+//        super.init(frame: frame)
+//    }
 
     /**
     Initializes a new C4TextShape from a specifed string and a font
@@ -73,7 +73,7 @@ public class C4TextShape : C4Shape {
     :param: text The string to be rendered as a shape
     */
     convenience public init(text: String) {
-        self.init()
+        self.init(text:text, font:C4Font(name: "Menlo-Regular", size:4))
         self.text = text
         lineWidth = 0.0
         fillColor = C4Pink
@@ -100,13 +100,11 @@ public class C4TextShape : C4Shape {
         CTFontGetAdvancesForGlyphs(ctfont, CTFontOrientation.Default, &glyphs, &advances, glyphs.count)
         
         let textPath = CGPathCreateMutable()
-        var invert = CGAffineTransformMakeScale(1, -1)
         var origin = CGPointZero
         for i in 0..<glyphs.count {
-            let glyphPath = CTFontCreatePathForGlyph(ctfont, glyphs[i], &invert)
+            let glyphPath = CTFontCreatePathForGlyph(ctfont, glyphs[i], nil)
             var translation = CGAffineTransformMakeTranslation(origin.x, origin.y)
             CGPathAddPath(textPath, &translation, glyphPath)
-            
             origin.x += CGFloat(advances[i].width)
             origin.y += CGFloat(advances[i].height)
         }

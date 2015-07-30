@@ -21,6 +21,7 @@
 		1FA413211B69D80D0067A4BD /* C4Star.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA413171B69D80D0067A4BD /* C4Star.swift */; };
 		1FA413231B69D80D0067A4BD /* C4Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA413191B69D80D0067A4BD /* C4Triangle.swift */; };
 		1FA413241B69D80D0067A4BD /* C4Wedge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4131A1B69D80D0067A4BD /* C4Wedge.swift */; };
+		1FA413261B69D88F0067A4BD /* C4Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA413251B69D88F0067A4BD /* C4Font.swift */; };
 		D9A3C1DC1B6842D90068831D /* C4OSX.h in Headers */ = {isa = PBXBuildFile; fileRef = D9A3C1DB1B6842D90068831D /* C4OSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9A3C1EE1B6843480068831D /* C4Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A3C1E41B6843480068831D /* C4Color.swift */; };
 		D9A3C1EF1B6843480068831D /* C4EventSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A3C1E51B6843480068831D /* C4EventSource.swift */; };
@@ -55,6 +56,7 @@
 		1FA413171B69D80D0067A4BD /* C4Star.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = C4Star.swift; sourceTree = "<group>"; };
 		1FA413191B69D80D0067A4BD /* C4Triangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = C4Triangle.swift; sourceTree = "<group>"; };
 		1FA4131A1B69D80D0067A4BD /* C4Wedge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = C4Wedge.swift; sourceTree = "<group>"; };
+		1FA413251B69D88F0067A4BD /* C4Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = C4Font.swift; sourceTree = "<group>"; };
 		D9A3C1D81B6842D90068831D /* C4OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = C4OSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9A3C1DB1B6842D90068831D /* C4OSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = C4OSX.h; sourceTree = "<group>"; };
 		D9A3C1DD1B6842D90068831D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 				1FA4130B1B69D7B20067A4BD /* C4Circle.swift */,
 				1FA4130F1B69D7DA0067A4BD /* C4Curve.swift */,
 				1FA4130D1B69D7C60067A4BD /* C4Ellipse.swift */,
+				1FA413251B69D88F0067A4BD /* C4Font.swift */,
 				D9A3C1F91B68438D0068831D /* C4View.swift */,
 				1FA413111B69D80D0067A4BD /* C4Line.swift */,
 				1FA413121B69D80D0067A4BD /* C4Polygon.swift */,
@@ -267,6 +270,7 @@
 				1FA4130A1B69D77B0067A4BD /* C4Arc.swift in Sources */,
 				D9A3C1EE1B6843480068831D /* C4Color.swift in Sources */,
 				D9A3C1FA1B68438D0068831D /* C4View.swift in Sources */,
+				1FA413261B69D88F0067A4BD /* C4Font.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

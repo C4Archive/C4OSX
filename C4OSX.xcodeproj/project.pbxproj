@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1FA413081B69D3930067A4BD /* C4View+FrameRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA413071B69D3930067A4BD /* C4View+FrameRotation.swift */; };
 		1FA4130A1B69D77B0067A4BD /* C4Arc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA413091B69D77B0067A4BD /* C4Arc.swift */; };
+		1FA4130E1B69D7C60067A4BD /* C4Ellipse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4130D1B69D7C60067A4BD /* C4Ellipse.swift */; };
 		D9A3C1DC1B6842D90068831D /* C4OSX.h in Headers */ = {isa = PBXBuildFile; fileRef = D9A3C1DB1B6842D90068831D /* C4OSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9A3C1EE1B6843480068831D /* C4Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A3C1E41B6843480068831D /* C4Color.swift */; };
 		D9A3C1EF1B6843480068831D /* C4EventSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A3C1E51B6843480068831D /* C4EventSource.swift */; };
@@ -31,6 +32,7 @@
 /* Begin PBXFileReference section */
 		1FA413071B69D3930067A4BD /* C4View+FrameRotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "C4View+FrameRotation.swift"; sourceTree = "<group>"; };
 		1FA413091B69D77B0067A4BD /* C4Arc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = C4Arc.swift; sourceTree = "<group>"; };
+		1FA4130D1B69D7C60067A4BD /* C4Ellipse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = C4Ellipse.swift; sourceTree = "<group>"; };
 		D9A3C1D81B6842D90068831D /* C4OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = C4OSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9A3C1DB1B6842D90068831D /* C4OSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = C4OSX.h; sourceTree = "<group>"; };
 		D9A3C1DD1B6842D90068831D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				1FA413091B69D77B0067A4BD /* C4Arc.swift */,
+				1FA4130D1B69D7C60067A4BD /* C4Ellipse.swift */,
 				D9A3C1F91B68438D0068831D /* C4View.swift */,
 				1FA413071B69D3930067A4BD /* C4View+FrameRotation.swift */,
 				D9A3C20E1B6848AC0068831D /* C4View+Border.swift */,
@@ -212,6 +215,7 @@
 				D9A3C1F61B6843480068831D /* C4Transform.swift in Sources */,
 				D9A3C20F1B6848AC0068831D /* C4View+Border.swift in Sources */,
 				D9A3C1F31B6843480068831D /* C4Point.swift in Sources */,
+				1FA4130E1B69D7C60067A4BD /* C4Ellipse.swift in Sources */,
 				D9A3C1EF1B6843480068831D /* C4EventSource.swift in Sources */,
 				1FA413081B69D3930067A4BD /* C4View+FrameRotation.swift in Sources */,
 				D9A3C20D1B68469D0068831D /* NSViewController+C4View.swift in Sources */,

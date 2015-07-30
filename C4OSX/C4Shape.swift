@@ -36,6 +36,7 @@ public class C4Shape: C4View {
                 return self.layer as! C4ShapeLayer
             }
         }
+
     }
     
     public var shapeLayer: C4ShapeLayer {
@@ -81,8 +82,8 @@ public class C4Shape: C4View {
         lineJoin = .Round
     }
     
-    public override init() {
-        super.init(frame: C4Rect(0,0,1,1))
+    convenience public override init() {
+        self.init(frame: C4Rect(0,0,1,1))
     }
     
     /**

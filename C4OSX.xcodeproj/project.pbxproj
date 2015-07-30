@@ -24,6 +24,7 @@
 		1FA413271B69DBE90067A4BD /* C4TextShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA413181B69D80D0067A4BD /* C4TextShape.swift */; };
 		1FA413291B69E1BD0067A4BD /* C4View+FrameRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA413281B69E1BD0067A4BD /* C4View+FrameRotation.swift */; };
 		1FA4132D1B6A02DE0067A4BD /* MOCoreWedge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4132C1B6A02DE0067A4BD /* MOCoreWedge.swift */; };
+		1FA413351B6A04900067A4BD /* MOCanvasController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA413341B6A04900067A4BD /* MOCanvasController.swift */; };
 		D9A3C1DC1B6842D90068831D /* C4OSX.h in Headers */ = {isa = PBXBuildFile; fileRef = D9A3C1DB1B6842D90068831D /* C4OSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9A3C1EE1B6843480068831D /* C4Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A3C1E41B6843480068831D /* C4Color.swift */; };
 		D9A3C1EF1B6843480068831D /* C4EventSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A3C1E51B6843480068831D /* C4EventSource.swift */; };
@@ -61,6 +62,7 @@
 		1FA413251B69D88F0067A4BD /* C4Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = C4Font.swift; sourceTree = "<group>"; };
 		1FA413281B69E1BD0067A4BD /* C4View+FrameRotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "C4View+FrameRotation.swift"; sourceTree = "<group>"; };
 		1FA4132C1B6A02DE0067A4BD /* MOCoreWedge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MOCoreWedge.swift; sourceTree = "<group>"; };
+		1FA413341B6A04900067A4BD /* MOCanvasController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MOCanvasController.swift; sourceTree = "<group>"; };
 		D9A3C1D81B6842D90068831D /* C4OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = C4OSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9A3C1DB1B6842D90068831D /* C4OSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = C4OSX.h; sourceTree = "<group>"; };
 		D9A3C1DD1B6842D90068831D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 				D9A3C1FB1B6843B10068831D /* C4ShapeLayer.swift */,
 				D9A3C1FD1B6843F20068831D /* C4Shape.swift */,
 				D9A3C20A1B6846570068831D /* C4CanvasController.swift */,
+				1FA413341B6A04900067A4BD /* MOCanvasController.swift */,
 				D9A3C20C1B68469D0068831D /* NSViewController+C4View.swift */,
 			);
 			name = UI;
@@ -257,6 +260,7 @@
 				D9A3C1F01B6843480068831D /* C4Foundation.swift in Sources */,
 				1FA413211B69D80D0067A4BD /* C4Star.swift in Sources */,
 				D9A3C1F41B6843480068831D /* C4Rect.swift in Sources */,
+				1FA413351B6A04900067A4BD /* MOCanvasController.swift in Sources */,
 				D9A3C1FC1B6843B10068831D /* C4ShapeLayer.swift in Sources */,
 				1FA4131B1B69D80D0067A4BD /* C4Line.swift in Sources */,
 				1FA413291B69E1BD0067A4BD /* C4View+FrameRotation.swift in Sources */,

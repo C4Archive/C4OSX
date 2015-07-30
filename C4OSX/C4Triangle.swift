@@ -30,7 +30,9 @@ public class C4Triangle: C4Polygon {
     */
     convenience public init(_ points: [C4Point]) {
         assert(points.count >= 3, "To create a Triangle you need to specify an array of at least 3 points")
-        self.init(frame: C4Rect(points))
+        self.init()
+        let frame = C4Rect(points)
+        view.frame = NSRect(frame)
         let path = C4Path()
         self.points = points
         path.moveToPoint(points[0])

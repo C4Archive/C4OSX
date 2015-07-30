@@ -67,14 +67,9 @@ public class C4RegularPolygon: C4Shape {
 
     :param: frame A C4Rect into which the shape of the polygon will be generated (taking into consideration `sides` and `phase`).
     */
-    convenience public init(frame: C4Rect) {
-        self.init()
-        self.view.frame = CGRect(frame)
+    public override init(frame: C4Rect) {
+        super.init(frame: frame)
         updatePath()
-    }
-    
-    public override init() {
-        super.init()
     }
     
     required public init(coder aDecoder: NSCoder) {

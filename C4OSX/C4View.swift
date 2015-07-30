@@ -46,8 +46,8 @@ public class C4View : NSObject {
     
     - parameter frame: A C4Rect, which describes the view’s location and size in its superview’s coordinate system.
     */
-    convenience public init(frame: C4Rect) {
-        self.init()
+    public init(frame: C4Rect) {
+        super.init()
         self.view.frame = CGRect(frame)
     }
     

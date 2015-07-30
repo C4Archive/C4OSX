@@ -34,8 +34,10 @@ public class C4TextShape : C4Shape {
     
     public override init() {
         font = C4Font(name: "AvenirNext-DemiBold", size:80)
+        super.init()
+        font = C4Font(name: "AvenirNext-DemiBold", size:80)
     }
-    
+
     /**
     Initializes a new C4TextShape from a specifed string and a font
 

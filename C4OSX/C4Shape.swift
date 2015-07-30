@@ -22,6 +22,15 @@ import QuartzCore
 public class C4Shape: C4View {
     
     internal class ShapeView : NSView {
+        required override init(frame: NSRect) {
+            super.init(frame: frame)
+            self.layer = C4ShapeLayer()
+        }
+
+        required init?(coder: NSCoder) {
+            super.init(coder: coder)
+        }
+
         var shapeLayer: C4ShapeLayer {
             get {
                 return self.layer as! C4ShapeLayer
@@ -62,19 +71,18 @@ public class C4Shape: C4View {
     
     - parameter frame: The frame for the new shape.
     */
-    convenience public init(frame: C4Rect) {
-        self.init()
-        self.view.frame = CGRect(frame)
-    }
-    
-    public override init() {
+    public override init(frame: C4Rect) {
         super.init()
-        self.view = ShapeView()
+        self.view = ShapeView(frame: NSRect(frame))
         strokeColor = C4Purple
         fillColor = C4Blue
         lineWidth = 1
         lineCap = .Round
         lineJoin = .Round
+    }
+    
+    public override init() {
+        super.init(frame: C4Rect(0,0,1,1))
     }
     
     /**

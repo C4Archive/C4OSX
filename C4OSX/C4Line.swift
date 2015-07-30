@@ -84,7 +84,9 @@ public class C4Line: C4Polygon {
             } while points.count > 2
         }
 
-        self.init(frame: C4Rect(points))
+        self.init()
+        let frame = C4Rect(points)
+        view.frame = NSRect(frame)
         let path = C4Path()
         self.points = points
         path.moveToPoint(points[0])

@@ -29,9 +29,8 @@ public class C4Ellipse: C4Shape {
         
     :param: frame The frame within which to draw an ellipse that touches each of the four sides of the frame.
     */
-    convenience public init(frame: C4Rect) {
-        self.init()
-        view.frame = CGRect(frame)
+    public override init(frame: C4Rect) {
+        super.init(frame: frame)
         updatePath()
     }
     

@@ -49,12 +49,11 @@ public class C4Rectangle: C4Shape {
 
     :param: frame A C4Rect whose dimensions are used to construct the C4Rectangle.
     */
-    convenience public init(frame: C4Rect) {
-        self.init()
+    public override init(frame: C4Rect) {
+        super.init(frame: frame)
         if frame.size.width <= corner.width * 2.0 {
             corner = C4Size()
         }
-        view.frame = CGRect(frame)
         updatePath()
     }
     
